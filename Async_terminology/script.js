@@ -24,7 +24,7 @@ This is where all the memory allocation happens for your variables, that you hav
 This is where your asynchronous code gets pushed to, and waits for the execution.
 */
 
-//4)-----------------------------------Event Loop--------------------------
+//4)-----------------------------------**Event Loop**--------------------------
 /*
  Then comes the Event Loop, which keeps running continuously and checks the Main stack, 
  if it has any frames to execute, if not then it checks Callback queue, 
