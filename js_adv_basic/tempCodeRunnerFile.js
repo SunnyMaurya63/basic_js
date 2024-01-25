@@ -1,0 +1,1 @@
+true, as 0 and -0 are considered equal in loose equali

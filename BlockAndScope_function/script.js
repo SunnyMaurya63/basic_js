@@ -38,5 +38,5 @@
 //     return res;
 // }
 
-// repeat1(3); // 3 , as we have used var
-// repeat2(3); // throws reference error
+ //repeat1(3); // 3 , as we have used var
+ //repeat2(3); // throws reference error
