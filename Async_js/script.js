@@ -94,3 +94,4 @@
 // });
 
 // console.log(result); // Output the result of mapping factorial function on the array
+

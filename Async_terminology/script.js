@@ -38,4 +38,3 @@ reserved only for new Promise() functionality. So when you use promises in your 
  which is a callback method.
 These `thenable` methods are added to Job Queue once the promise has returned/resolved, and then gets executed.
 */
-

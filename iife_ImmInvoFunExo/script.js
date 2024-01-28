@@ -5,6 +5,7 @@ console.log("start");
 
 
 // Golden Rule :- If the first variable of your line is not function then it's function Expression
+
 // var result =10;
 // console.log(result*10);
 
@@ -12,7 +13,6 @@ console.log("start");
 //     var result =10;
 //     console.log(2*result);
 // })(); // iife
-
 //
 
 //------------------------- Naming Conflict(why we should use iife) -------------------------
@@ -27,7 +27,7 @@ console.log("start");
 
 // // no effect after this
 // //some more code
-console.log("end")
+// console.log("end")
 
 //------------- method 1 --------------
 

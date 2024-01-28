@@ -85,4 +85,3 @@ console.log(42=="42") // true
 console.log([]==[]) // false 
 console.log([] == ![]) //true , []== false -> []== 0 -> 0 =0 
 console.log({} == !{}) // false
-

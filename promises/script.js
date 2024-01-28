@@ -35,5 +35,5 @@ promise.then(function(resolve) {
    console.log('Message no. 4: 2nd Promise');
 });
 console.log('Message no. 5: Sync');
-console.log(promise);
+//console.log(promise);// print this in firefox.
 //--------------------------------  -------------------------------------

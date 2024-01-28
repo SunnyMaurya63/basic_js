@@ -23,7 +23,6 @@ a Web API given by browser, which makes sure that your code executes after speci
 // console.log('Message 3');
 
 /*
-
 setTimeout takes a callback function as first parameter, and time in millisecond as second parameter.
 After executing above statements, browser will print “Message 1” & “Message 3” first, 
 then it will print “Message 2”. This is where event loop comes in, 
@@ -50,7 +49,7 @@ hey //After 5 s
 // console.log("start");
 
 // function F(){
-//         for(let i=0;i<=10000000000;i++){} // it acts as blocker 
+//         for(let i=0;i<=10000000000;i++){}; // it acts as blocker 
 //              console.log("Hello");
 // };
 // setTimeout(function fun(){
@@ -70,3 +69,17 @@ hey
 // js is non blocking by the feature of browser and it looks Asynchronous to us(we'll feel that a new thread is going)
 // we can do heavy tasks without hindering the Js code flow 
 // slow tasks are handled seperately 
+
+/*
+ pure Js doesn't know how to talk to the internet 
+ the fearure of talking to internet is given to js by the runtime
+ and nodejs/browser is a runtime.
+ runtime is like a enviornment where js gets a properly executed,js is 
+ very weak and it provides many functions and Js engine.
+
+ */
+
+ /*
+   js doesn't know a lot of thingd-
+   how to interact with html,dom,local-storage etc..
+ */
