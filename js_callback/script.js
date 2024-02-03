@@ -19,12 +19,12 @@ function uploadFile(Path,url){
     },2000);
 }
 
-/*
-download("www.google.com");
-compressFile("files.jpg");
-uploadFile("files.jpg","www.google.com");*/
 
-download("www.google.com",function(file){
+// download("www.google.com");
+// compressFile("files.jpg");
+// uploadFile("files.jpg","www.google.com");
+
+download("www.google.com",function(file){ // passing compress file funcion as callback  (instead of done we're passing the function) 
     compressFile(file,function(file,url){
           uploadFile(file,url);    
     });
