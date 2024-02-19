@@ -11,6 +11,7 @@ function downloadFile(url){
 //The resolve parameter is a function that is called when the asynchronous operation is successfully completed. 
 //It takes an optional value as an argument, which represents the result of the operation.
 
+
 // Function to simulate compressing a file with a delay of 4 seconds
 function compressFile(filepath){
   return new Promise(function(resolve, reject){
@@ -26,7 +27,7 @@ function uploadFile(filepath, url){
   return new Promise(function(resolve, reject){
       setTimeout(function(){
           console.log("Uploaded Successfully");
-          resolve(); // Resolving the promise when the upload is successful
+          //resolve(); // Resolving the promise when the upload is successful
       }, 2000);
   });
 }

@@ -1,5 +1,1 @@
-   console.log('Message no. 2: setTimeout');
-}, 0);
-var promise = new Promise(function(resolve, reject) {
-   resolve();
-});
+{ filepath, uploadUrl: "https://www.upload.com" }
